@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<default translate="label" module="page">
+        <label>All Pages</label>	
+   <block type="page/html_head" name="head" as="head">
+	   	<action method="addCss"><stylesheet>css/custom.css</stylesheet></action>
+   </block>
+</default>
+
+</layout>
